@@ -1,0 +1,74 @@
+body{
+	background-image: url(https://images.pexels.com/photos/1841841/pexels-photo-1841841.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);	
+	background-size:cover; 
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+
+h1 {
+
+	font-family: 'Mansalva', cursive;
+	color: #33FFDA;
+	font-size: 300%;
+}
+
+
+p {
+	font-family: 'Indie Flower', cursive;
+	color: white;
+	font-size: 20px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #E80C0C;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #33FFDA;
+}
+
+footer {
+
+		height: 60px;
+        padding: 2px 10px;
+        background: #E80C0C;
+        color: white;
+        position: fixed;
+  		left: 0;
+ 		bottom: 0;
+  		width: 100%;
+ 	    text-align: center;
+}
+
+.contacto-div{
+  background-color: white;
+  
+  position: center;
+  bottom: 0;
+  right: 0;
+  width: 300px;
+  border: 3px solid #73AD21;
+}
+
